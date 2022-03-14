@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
-  "/eagles_receivers" => "wide_receivers#index"
-  "/eagles_receivers/depth" => "wide_receivers#show"
+  "/wide_receivers" => "wide_receivers#index"
+  
+  "/wide_receivers/depth" => "wide_receivers#show"
 
 end
