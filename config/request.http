@@ -1,0 +1,17 @@
+### all receivers
+GET http://localhost:3000/wide_receivers
+
+### receiver depth
+
+GET http://localhost:3000/wide_receivers/1
+
+### receiver create
+
+POST http://localhost:3000/wide_receivers/create
+Content-Type: application/json
+
+{
+  "name": "JJ Arcega-Whiteside",
+  "number": "19",
+  "depth": 4
+}
